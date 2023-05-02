@@ -1,0 +1,7 @@
+.env
+
+# foundry
+*out
+*lib
+*cache
+
