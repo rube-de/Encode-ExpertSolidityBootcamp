@@ -1,0 +1,8 @@
+add 0x07 and 0x08, store in next free memory
+
+PUSH1 0x07
+PUSH1 0x08
+ADD
+PUSH1 0x80
+MSTORE
+
