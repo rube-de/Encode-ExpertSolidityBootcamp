@@ -10,7 +10,7 @@ contract Scope {
         // the assembly segment
         assembly {
             //sstore(0x0, add(sload(0x0), num))
-            sstore(0x0, add(sload(count.slot, num))
+            sstore(count.slot, add(sload(count.slot), num))
         }
     }
 }
